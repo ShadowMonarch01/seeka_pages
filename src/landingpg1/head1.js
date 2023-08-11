@@ -2,23 +2,25 @@ import React from 'react'
 import './head1.css'
 import { Link } from 'react-router-dom'
 
+import logo from './l1images/Logo.png'
+
 const Head1 = () => {
   return (
     <header>
       <div>
         <Link href="/">
-            <img class="bar-logo" src="./Logo.png" alt=""/>
+            <img className="bar-logo" src={logo} alt=""/>
         </Link>
       </div>
       
 
-      <div class="top-btn-wrapper">
-            <Link to='/' class="top-btn">
-                <p class="top-btn-txt">Have an account?</p>
+      <div className="top-btn-wrapper">
+            <Link to='/' className="top-btn">
+                <p className="top-btn-txt">Have an account?</p>
             </Link>
 
-            <button class="top-btn1">
-                <p class="top-btn-txt">Sign in</p>
+            <button className="top-btn1">
+                <p className="top-btn-txt">Sign in</p>
             </button>
         </div>
     </header>

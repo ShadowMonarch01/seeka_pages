@@ -3,6 +3,14 @@ import Head1 from './head1';
 import './landpg1.css'
 import { Link } from 'react-router-dom';
 
+import instagram from './l1images/instagram.png'
+import facebook from './l1images/facebook.png'
+import twitter from './l1images/twitter.png'
+import google from './l1images/googleplay.png'
+import apple from './l1images/appleic.png'
+import btmlogo from './l1images/btmdimg.png'
+import backgroundbg from './l1images/background1.png'
+
 const Landpg1 = () => {
   const About = ['Our Mission', 'Terms', 'Copyrights'];
 
@@ -48,7 +56,7 @@ const Landpg1 = () => {
 
               <div className='rowbtns'>
                 <button className='dnwbtn b1'>
-                  <img class="gplay" src="./googleplay.png" alt=""/>
+                  <img className="gplay" src={google} alt=""/>
                   <div className='inbtncl'>
                     <p className='btnsm'>Get it on</p>
                     <p className='btnbd'>Google Play</p>
@@ -56,7 +64,7 @@ const Landpg1 = () => {
                 </button>
 
                 <button className='dnwbtn b2'>
-                  <img class="apic" src="./appleic.png" alt=""/>
+                  <img className="apic" src={apple} alt=""/>
                   <div className='inbtncl'>
                     <p className='btnsm'>Download on the</p>
                     <p className='btnbd'>App Store</p>
@@ -69,7 +77,7 @@ const Landpg1 = () => {
         </div>
 
         <div className='sectionimage'>
-          <img class="bgimg1" src="./background1.png" alt=""/>
+          <img className="bgimg1" src={backgroundbg} alt=""/>
         </div>
       </div>
 
@@ -131,11 +139,11 @@ const Landpg1 = () => {
             <div className='tbdata cntrdata'>
               <div className='structic'>
               <div className='iconsContainer'>
-                <img class="btmicons" src="./instagram.png" alt=""/>
-                <img class="btmicons" src="./facebook.png" alt=""/>
-                <img class="btmicons" src="./twitter.png" alt=""/>
+                <img className="btmicons" src={instagram} alt=""/>
+                <img className="btmicons" src={facebook} alt=""/>
+                <img className="btmicons" src={twitter} alt=""/>
               </div>
-              <img class="btmic" src="./btmdimg.png" alt=""/>
+              <img className="btmic" src={btmlogo} alt=""/>
               </div>
             </div>
           </div>

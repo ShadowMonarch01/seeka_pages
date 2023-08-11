@@ -32,7 +32,7 @@
 
 .ch1{
     width: 100%;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 400;
     font-family: Tokyo;
     background: linear-gradient(180deg, #B625FD 0%, #FA48B6 100%);
@@ -45,7 +45,7 @@
 
 .ch2{
     width: 100%;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 400;
     font-family: Tokyo;
     background: linear-gradient(180deg, #B625FD 0%, #FA48B6 100%);
@@ -159,7 +159,7 @@
 .bgimg1{
     width: 442px;
     /* right: 80px; */
-    margin-left: -120px;
+    /* margin-left: -120px; */
     /* position: absolute; */
     /* z-index: 1px; */
 }
@@ -239,4 +239,68 @@
     margin-top: 10px;
     height: 40px;
     width: 40px;
+}
+
+@media only screen and (max-width: 1428px) {
+    .ch1{
+        font-size: 80px;
+    }
+
+    .ch2{
+        font-size: 80px;
+    }
+
+    .tbdata p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .ch1{
+        font-size: 75px;
+    }
+
+    .ch2{
+        font-size: 75px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1314px) {
+    .ch1{
+        font-size: 70px;
+    }
+
+    .ch2{
+        font-size: 70px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1234px) {
+    .tbdata p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1264px) {
+    .ch1{
+        font-size: 66px;
+    }
+
+    .ch2{
+        font-size: 66px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .ch1{
+        font-size: 50px;
+    }
+
+    .ch2{
+        font-size: 50px;
+    }
 }

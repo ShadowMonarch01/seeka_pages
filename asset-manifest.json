@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/github.io/seeka_pages/static/css/main.a49212a9.css",
-    "main.js": "/github.io/seeka_pages/static/js/main.b07bba4a.js",
-    "static/js/787.250f9c5b.chunk.js": "/github.io/seeka_pages/static/js/787.250f9c5b.chunk.js",
-    "static/media/Inter-Regular.ttf": "/github.io/seeka_pages/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/Roboto-Regular.ttf": "/github.io/seeka_pages/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/ZenTokyoZoo-Regular.ttf": "/github.io/seeka_pages/static/media/ZenTokyoZoo-Regular.c07595e79f8c88cb7cd4.ttf",
-    "index.html": "/github.io/seeka_pages/index.html",
-    "main.a49212a9.css.map": "/github.io/seeka_pages/static/css/main.a49212a9.css.map",
-    "main.b07bba4a.js.map": "/github.io/seeka_pages/static/js/main.b07bba4a.js.map",
-    "787.250f9c5b.chunk.js.map": "/github.io/seeka_pages/static/js/787.250f9c5b.chunk.js.map"
+    "main.css": "/seeka_pages/static/css/main.8ae984a1.css",
+    "main.js": "/seeka_pages/static/js/main.10cbc5f5.js",
+    "static/js/787.250f9c5b.chunk.js": "/seeka_pages/static/js/787.250f9c5b.chunk.js",
+    "static/media/Inter-Regular.ttf": "/seeka_pages/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Roboto-Regular.ttf": "/seeka_pages/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/ZenTokyoZoo-Regular.ttf": "/seeka_pages/static/media/ZenTokyoZoo-Regular.c07595e79f8c88cb7cd4.ttf",
+    "index.html": "/seeka_pages/index.html",
+    "main.8ae984a1.css.map": "/seeka_pages/static/css/main.8ae984a1.css.map",
+    "main.10cbc5f5.js.map": "/seeka_pages/static/js/main.10cbc5f5.js.map",
+    "787.250f9c5b.chunk.js.map": "/seeka_pages/static/js/787.250f9c5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49212a9.css",
-    "static/js/main.b07bba4a.js"
+    "static/css/main.8ae984a1.css",
+    "static/js/main.10cbc5f5.js"
   ]
 }

@@ -1,0 +1,62 @@
+.header-2{
+    background-color: rgba(3, 1, 16, 0.2);
+    background-image: url('./l2images/NavBar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    /* box-shadow: 0 8px 6px -6px #414a4c; */
+    z-index:10;
+}
+
+.bar-logo{
+    width: 107px;
+    height: 31px;
+    margin-left: 50px;
+
+}
+
+.top-btn-wrapper2{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-btn2{
+    height: 40px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+.top-btn3{
+    height: 40px;
+    width: 145px;
+    border-radius: 24px;
+    border-width:0px ;
+    /* border-color: black;
+    color: black; */
+    background: linear-gradient(91.18deg, #B625FD -46.05%, #FF99DC 48.59%, #FA48B6 159.63%);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+}
+
+.top-btn-txt2{
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Robot;
+    color: white;
+}

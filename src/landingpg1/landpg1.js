@@ -1,24 +1,16 @@
 import React from 'react'
 import Head1 from './head1';
+import Footer from '../footer/Footer';
 import './landpg1.css'
 import { Link } from 'react-router-dom';
 
-import instagram from './l1images/instagram.png'
-import facebook from './l1images/facebook.png'
-import twitter from './l1images/twitter.png'
+
 import google from './l1images/googleplay.png'
 import apple from './l1images/appleic.png'
-import btmlogo from './l1images/btmdimg.png'
 import backgroundbg from './l1images/background1.png'
 
 const Landpg1 = () => {
-  const About = ['Our Mission', 'Terms', 'Copyrights'];
-
-  const Faq = ['Rules', 'Tickets', 'Editions', 'Contribute'];
-
-  const Events = ['Star Gazing', 'Desert Mania', 'Dunes Madness', 'Spooky Land']
-
-  const Contactus = ['hellow@example.com', '(405) 555-0128', '(253) 555-0126'];
+  
   return (
     <div className='mainContainer'>
       <Head1/>
@@ -83,73 +75,7 @@ const Landpg1 = () => {
 
 
       {/* Section 3 */}
-      <div className='section3'>
-        <div className='btmcontainer'>
-          {/* A section */}
-          <div className='tabsection'>
-            <p className='stitle'>ABOUT</p>
-            <div className='tbdata'>
-              {
-                About.map((item,index)=>(
-                  <p key={index}>{item}</p>
-                ))
-              }
-            </div>
-          </div>
-
-          {/* A section */}
-          <div className='tabsection'>
-            <p className='stitle'>FAQ</p>
-            <div className='tbdata'>
-              {
-                Faq.map((item,index)=>(
-                  <p key={index}>{item}</p>
-                ))
-              }
-            </div>
-          </div>
-
-          {/* A section */}
-          <div className='tabsection'>
-            <p className='stitle'>EVENTS</p>
-            <div className='tbdata'>
-              {
-                Events.map((item,index)=>(
-                  <p key={index}>{item}</p>
-                ))
-              }
-            </div>
-          </div>
-
-          {/* A section */}
-          <div className='tabsection'>
-            <p className='stitle'>CONTACT US</p>
-            <div className='tbdata'>
-              {
-                Contactus.map((item,index)=>(
-                  <p key={index}>{item}</p>
-                ))
-              }
-            </div>
-          </div>
-
-          {/* A section */}
-          <div className='tabsection'>
-            <p className='stitle'>FOLLOW US</p>
-            <div className='tbdata cntrdata'>
-              <div className='structic'>
-              <div className='iconsContainer'>
-                <img className="btmicons" src={instagram} alt=""/>
-                <img className="btmicons" src={facebook} alt=""/>
-                <img className="btmicons" src={twitter} alt=""/>
-              </div>
-              <img className="btmic" src={btmlogo} alt=""/>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      <Footer dBcakground={'section3-l1'}/>
     </div>
   )
 }

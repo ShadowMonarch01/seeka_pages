@@ -219,7 +219,7 @@
 
 
 .thirdpic-section{
-    min-height: 100vh;
+    height: 100vh;
     /* background-color: gray; */
     
 }
@@ -241,7 +241,7 @@
     position: absolute;
     /* background-color: red; */
     width: 36vw;
-    height: 94vh;
+    height: 94%;
     left: 50px;
     top: -36px;
     border-radius: 16px;
@@ -257,7 +257,7 @@
     position: absolute;
     /* background-color: green; */
     width: 24.9vw;
-    height: 51.898vh;
+    height: 51.898%;
     left: 50px;
     margin-top: calc(94vh /7);
     margin-left: calc(18vw);
@@ -284,7 +284,6 @@
 
 .image-h4{
     position: absolute;
-    position: absolute;
     /* background-color: blue; */
     width: 20vw;
     /* height: 10vh; */
@@ -310,10 +309,10 @@
     position: absolute;
     /* background-color: yellow; */
     width: 8vw;
-    height: 8vh;
+    height: 8%;
     left: 50px;
-    /* bottom: calc(-18vh); */
-    margin-top: calc(94vh / 1.098);
+    bottom: 50px;
+    /* margin-top: calc(94 / 1.098); */
     margin-left: calc(20vw);
     border-radius: 6px;
     display: flex;
@@ -473,5 +472,167 @@
 
     width: 322px;
     height: 51px;
+}
+
+.fifth-section{
+    height: 160vh;
+    margin-bottom: 40px;
+}
+
+.pp-tts{
+    background: linear-gradient(90deg, #B625FD 0%, #FFA2E0 52.61%, #F7119B 107.48%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cards-wrapper{
+    width: 100%;
+    height: 48%;
+    /* background-color: gray; */
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card-container{
+    width: 28%;
+    height: 100%;
+    /* background-color: blue; */
+    box-shadow: -2px 2px 100px 0px rgba(255, 161, 224, 0.05) inset;
+
+    margin: 0px 10px;
+    border-radius: 18px;
+    position: relative;
+    padding: 1rem;
+}
+
+.quoies-img{
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    /* background-color: yellow; */
+}
+
+.details-container{
+    position: absolute;
+    width: 86%;
+    height: 86%;
+    top: 9%;
+    left: 8% ;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.plenty-card-txt{
+    font-size: 22px;
+    font-family: Inter;
+    color: white;
+    
+}
+
+.card-box{
+    /* background-color: darkred; */
+    width: 100%;
+    height: 18%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-box-img{
+    /* background-color: goldenrod; */
+    height: 100%;
+    width: 24%;
+    border-radius: 8px;
+
+}
+
+.card-box-txt{
+    width: 75%;
+    height: 60%;
+    margin: 0px 4px;
+    /* background-color: #FA48B6; */
+}
+
+.card-box-txt p{
+    font-family: Inter;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1496px) {
+    .plenty-card-txt{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1466px) {
+    .plenty-card-txt{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1296px) {
+    .thirdpic-section{
+        height: 80vh;
+        /* background-color: green; */
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .thirdpic-section{
+        height: 60vh;
+        /* background-color: green; */
+    }
+
+    .image-h3{
+        height: 4vh;
+        margin-top: calc(92vh / 4.8);
+    }
+    
+    .image-h4{
+        margin-top: calc(92vh / 4);
+        font-size: 24px;
+    }
+
+    .right-txt-container{
+        padding-top: 8vh;
+    }
+
+    .chillAd2{
+        margin-top: 4vh;
+        font-family: Inter;
+        font-size: 24px;
+        color: white;
+        padding: 0px 20px;
+    }
+
+    .fourth-section{
+        height: 140vh;
+    }
+    .fifth-section{
+        height: 120vh;
+    }
+    /* .cards-wrapper{
+        height: 38%;
+    } */
+
+    .plenty-card-txt{
+        font-size: 16px;
+    }
+
+    .card-box-txt p{
+        font-size: 16px;
+    }
 }
 

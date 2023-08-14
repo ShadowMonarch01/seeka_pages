@@ -16,7 +16,14 @@ import aboutUsImg from './l2images/aboutimg.png'
 import aboutUsDot from './l2images/aboutusdot.png'
 import aboutUsFrame from './l2images/aboutusframe.png'
 
+import quoteImg from './l2images/quote.png'
+import cardImg from './l2images/cardboximg.png'
+import Footer from '../footer/Footer'
+
 const Landpg2 = () => {
+
+  const cardsData =[{dText:'Elementum mi felis, sit velit'},{dText:'Elementum mi felis, sit velit'},{dText:'Elementum mi felis, sit velit'}];
+
   return (
     <div className='mainContainer2'>
       <Head2/>
@@ -234,8 +241,81 @@ const Landpg2 = () => {
               </button>
         </div>
         
-
       </section>
+
+      <section className='fifth-section'>
+        <p className='pp-tts'>People's Thoughts</p>
+
+        <div className='cards-wrapper'>
+          {
+            cardsData.map((item, index)=>(
+              <div key={index} className='card-container'>
+                  {/* <div className='quoies-img'></div> */}
+                  <img className="quoies-img" src={quoteImg} alt=""/>
+                  <div className='details-container'>
+                    <p className='plenty-card-txt'>
+                      {item.dText}<br/>
+                      lobortis ultricies non. Mattis enim,<br/>
+                      nisl<br/>
+                      <br/>
+                      adipiscing natoque diam et. Cum<br/>
+                      posuere in velit massa sagittis a...<br/>
+                    </p>
+
+                    <div className='card-box'>
+                      {/* <div className='card-box-img'></div> */}
+                      <img className="card-box-img" src={cardImg} alt=""/>
+
+                      <div className='card-box-txt'>
+                        <p>
+                          JUDY ROSELESS<br/>
+                          51YR OLD FROM AUSTIN
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            ))
+          }
+          
+        </div>
+
+        <div className='cards-wrapper'>
+          {
+            cardsData.map((item, index)=>(
+              <div key={index} className='card-container'>
+                  {/* <div className='quoies-img'></div> */}
+                  <img className="quoies-img" src={quoteImg} alt=""/>
+                  <div className='details-container'>
+                    <p className='plenty-card-txt'>
+                      {item.dText}<br/>
+                      lobortis ultricies non. Mattis enim,<br/>
+                      nisl<br/>
+                      <br/>
+                      adipiscing natoque diam et. Cum<br/>
+                      posuere in velit massa sagittis a...<br/>
+                    </p>
+
+                    <div className='card-box'>
+                      {/* <div className='card-box-img'></div> */}
+                      <img className="card-box-img" src={cardImg} alt=""/>
+
+                      <div className='card-box-txt'>
+                        <p>
+                          JUDY ROSELESS<br/>
+                          51YR OLD FROM AUSTIN
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            ))
+          }
+          
+        </div>
+      </section>
+
+      <Footer dBcakground={'section3-l2'}/>
     </div>
   )
 }

@@ -166,81 +166,7 @@
 }
 
 
-.section3{
-    width: 100%;
-    height: 60vh;
-    background-color: black;
-    color: white;
-    font-family: Inter;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-}
-
-.btmcontainer{
-    width: 80%;
-    height: 80%;
-    gap: 48px;
-    /* background-color: gray; */
-    display: flex;
-    flex-direction: row;
-
-}
-
-.tabsection{
-    display: flex;
-    flex-direction: column;
-    /* background-color: #B625FD; */
-    width: 100%;
-    padding-top: 30px;
-}
-
-.stitle{
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.tbdata{
-    margin-top: 40px;
-}
-
-.tbdata p{
-    margin-bottom: 28px;
-    font-size: 25px;
-}
-
-.cntrdata{
-    display: flex;
-    align-items: flex-start;
-}
-
-.structic{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-.iconsContainer{
-    /* background-color: gray; */
-    width: 130px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
-}
-
-.btmicons{
-    width: 30px;
-    height: 30px;
-}
-
-.btmic{
-    margin-top: 10px;
-    height: 40px;
-    width: 40px;
-}
 
 @media only screen and (max-width: 1428px) {
     .ch1{
@@ -251,9 +177,6 @@
         font-size: 80px;
     }
 
-    .tbdata p{
-        font-size: 20px;
-    }
 }
 
 @media only screen and (max-width: 1360px) {
@@ -280,11 +203,6 @@
     
 }
 
-@media only screen and (max-width: 1234px) {
-    .tbdata p{
-        font-size: 18px;
-    }
-}
 
 @media only screen and (max-width: 1264px) {
     .ch1{

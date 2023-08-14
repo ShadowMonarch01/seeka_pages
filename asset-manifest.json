@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/seeka_pages/static/css/main.eaf5954e.css",
-    "main.js": "/seeka_pages/static/js/main.a2e9a64a.js",
+    "main.css": "/seeka_pages/static/css/main.cb74bc89.css",
+    "main.js": "/seeka_pages/static/js/main.ef6001e8.js",
     "static/js/787.250f9c5b.chunk.js": "/seeka_pages/static/js/787.250f9c5b.chunk.js",
     "static/media/background1.png": "/seeka_pages/static/media/background1.8d15bdcf2b42e3bc39b5.png",
+    "static/media/bgfull.png": "/seeka_pages/static/media/bgfull.85192ef738c09cc60485.png",
+    "static/media/aboutimg.png": "/seeka_pages/static/media/aboutimg.881da1281e4d373770aa.png",
     "static/media/Inter-Regular.ttf": "/seeka_pages/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/fcombo1.png": "/seeka_pages/static/media/fcombo1.2b40070fc49ee067bc9d.png",
+    "static/media/bg1.png": "/seeka_pages/static/media/bg1.0fd6080f93e1c6a0ced2.png",
+    "static/media/bg2.png": "/seeka_pages/static/media/bg2.f37c49395f787d6c9de9.png",
     "static/media/Roboto-Regular.ttf": "/seeka_pages/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/ZenTokyoZoo-Regular.ttf": "/seeka_pages/static/media/ZenTokyoZoo-Regular.c07595e79f8c88cb7cd4.ttf",
+    "static/media/fcombo2.png": "/seeka_pages/static/media/fcombo2.8eefff81d76f219a558f.png",
+    "static/media/NavBar.png": "/seeka_pages/static/media/NavBar.f93152d83d46abfe7111.png",
     "index.html": "/seeka_pages/index.html",
-    "main.eaf5954e.css.map": "/seeka_pages/static/css/main.eaf5954e.css.map",
-    "main.a2e9a64a.js.map": "/seeka_pages/static/js/main.a2e9a64a.js.map",
+    "main.cb74bc89.css.map": "/seeka_pages/static/css/main.cb74bc89.css.map",
+    "main.ef6001e8.js.map": "/seeka_pages/static/js/main.ef6001e8.js.map",
     "787.250f9c5b.chunk.js.map": "/seeka_pages/static/js/787.250f9c5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaf5954e.css",
-    "static/js/main.a2e9a64a.js"
+    "static/css/main.cb74bc89.css",
+    "static/js/main.ef6001e8.js"
   ]
 }

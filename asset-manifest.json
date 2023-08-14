@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seeka_pages/static/css/main.cb74bc89.css",
-    "main.js": "/seeka_pages/static/js/main.ef6001e8.js",
+    "main.css": "/seeka_pages/static/css/main.3c7a63fc.css",
+    "main.js": "/seeka_pages/static/js/main.5f54ae01.js",
     "static/js/787.250f9c5b.chunk.js": "/seeka_pages/static/js/787.250f9c5b.chunk.js",
     "static/media/background1.png": "/seeka_pages/static/media/background1.8d15bdcf2b42e3bc39b5.png",
     "static/media/bgfull.png": "/seeka_pages/static/media/bgfull.85192ef738c09cc60485.png",
@@ -15,12 +15,12 @@
     "static/media/fcombo2.png": "/seeka_pages/static/media/fcombo2.8eefff81d76f219a558f.png",
     "static/media/NavBar.png": "/seeka_pages/static/media/NavBar.f93152d83d46abfe7111.png",
     "index.html": "/seeka_pages/index.html",
-    "main.cb74bc89.css.map": "/seeka_pages/static/css/main.cb74bc89.css.map",
-    "main.ef6001e8.js.map": "/seeka_pages/static/js/main.ef6001e8.js.map",
+    "main.3c7a63fc.css.map": "/seeka_pages/static/css/main.3c7a63fc.css.map",
+    "main.5f54ae01.js.map": "/seeka_pages/static/js/main.5f54ae01.js.map",
     "787.250f9c5b.chunk.js.map": "/seeka_pages/static/js/787.250f9c5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb74bc89.css",
-    "static/js/main.ef6001e8.js"
+    "static/css/main.3c7a63fc.css",
+    "static/js/main.5f54ae01.js"
   ]
 }

@@ -34,7 +34,7 @@ const Landpg1 = () => {
 
             <p className='seconttxt'>
               By clicking Join, you agree to our<br/> 
-              <Link to='/pg2'>Terms</Link>. Learn how we processs your<br/> 
+              <Link to='/'>Terms</Link>. Learn how we processs your<br/> 
               data in our <Link to='/'>Privacy Policy</Link>. and<br/>
               <Link to='/'>Cookies Policy.</Link>
             </p>

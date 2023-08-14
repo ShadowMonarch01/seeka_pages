@@ -15,7 +15,7 @@ const Head1 = () => {
       
 
       <div className="top-btn-wrapper">
-            <Link to='/' className="top-btn">
+            <Link to='/pg2' className="top-btn">
                 <p className="top-btn-txt">Have an account?</p>
             </Link>
 

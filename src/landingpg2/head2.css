@@ -37,6 +37,10 @@
     text-decoration: none;
 }
 
+.addPointer:hover {
+    cursor:pointer;
+   }
+
 .top-btn3{
     height: 40px;
     width: 145px;

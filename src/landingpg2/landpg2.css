@@ -1,6 +1,8 @@
 .mainContainer2{
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(180deg, #3F204E 0%, #15001F 56.02%, #030110 100%);
 
 }

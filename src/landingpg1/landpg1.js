@@ -14,7 +14,6 @@ const Landpg1 = () => {
   return (
     <div className='mainContainer'>
       <Head1/>
-      <div></div>
 
       {/* Section 1 */}
       <div className='section1'>

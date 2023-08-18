@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 import google from './l1images/googleplay.png'
 import apple from './l1images/appleic.png'
 import backgroundbg from './l1images/background1.png'
+import AccountComp from './accountComp';
+import MobileFooter from '../footer/MobileFooter';
 
 const Landpg1 = () => {
   
@@ -25,23 +27,41 @@ const Landpg1 = () => {
           
           <div className='clmnvw'>
             <p className='firsttxt'>
-              Seeka is the only dating app that matches you<br/> 
+              Seeka is the only dating app that matches you<br className='desktopView'/> 
               on what matters to you.<br/>
-              You deserve to find who you’re looking for.<br/>
+              You deserve to find who you’re looking for.<br className='desktopView'/>
               Meet them today!
             </p>
 
+            {/* <p className='firsttxt'>
+              Seeka is the only dating app that matches you 
+              on what matters to you.<br/>
+              You deserve to find who you’re looking for.
+              Meet them today!
+            </p> */}
+
             <p className='seconttxt'>
-              By clicking Join, you agree to our<br/> 
-              <Link to='/'>Terms</Link>. Learn how we processs your<br/> 
-              data in our <Link to='/'>Privacy Policy</Link>. and<br/>
+              By clicking Join, you agree to our<br className='desktopView'/> 
+              <Link to='/'>Terms</Link>. Learn how we<br className='mobileView'/> processs your<br/> 
+              data in our <Link to='/'>Privacy Policy</Link>. and<br className='desktopView'/>
               <Link to='/'>Cookies Policy.</Link>
             </p>
+
+            {/* <p className='seconttxt'>
+              By clicking Join, you agree to our 
+              <Link to='/'>Terms</Link>. Learn how we<br/> processs your
+              data in our <Link to='/'>Privacy Policy</Link>. and
+              <Link to='/'>Cookies Policy.</Link>
+            </p> */}
 
             <button className='joinbtn'>
               <p>JOIN SEEKA</p>
             </button>
 
+            <AccountComp
+              visibility={'flex-d-container'}
+            />
+            
             <div className='lowerbtns'>
               <p className='gtapp'>GET THE APP</p>
 
@@ -75,6 +95,7 @@ const Landpg1 = () => {
 
       {/* Section 3 */}
       <Footer dBcakground={'section3-l1'}/>
+      <MobileFooter/>
     </div>
   )
 }

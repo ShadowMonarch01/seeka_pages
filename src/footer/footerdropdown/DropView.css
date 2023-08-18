@@ -1,0 +1,39 @@
+.flex-faq{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Robot;
+    padding: 5px 0px 5px 0px;
+}
+
+.drop-title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Robot;
+}
+
+.faq{
+    width: 100%;
+    /* background-color: grey; */
+    border-bottom: 2px solid #fff;
+}
+
+.answer{
+    max-height: 0;
+    transition: max-height 1s ease;
+    overflow: hidden;
+    
+}
+
+.answer-active{
+    margin-left: 10px;
+    max-height: fit-content;
+}
+
+.answer-active p{
+    /* background-color: aquamarine; */
+    font-size: 24px;
+    font-family: Robot;
+    margin: 2px 0px 2px 0px;
+}

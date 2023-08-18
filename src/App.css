@@ -19,7 +19,8 @@
 body{
     width: 100%;
     min-height: 100vh;
-    /* background-color: #3F204E; */
+    background-color: white;
+    /* background-color: #3F204E;
     background: linear-gradient(#3F204E, black);
-    background-size: cover;
+    background-size: cover; */
   }

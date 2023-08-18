@@ -83,13 +83,19 @@
 
 @media only screen and (max-width: 1428px) {
 
-    .tbdata p{
+    .tbdata p, .stitle{
         font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 1234px) {
-    .tbdata p{
+    .tbdata p, .stitle{
         font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1057px) {
+    .section3{
+        display: none;
     }
 }

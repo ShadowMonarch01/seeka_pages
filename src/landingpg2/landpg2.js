@@ -19,6 +19,7 @@ import aboutUsFrame from './l2images/aboutusframe.png'
 import quoteImg from './l2images/quote.png'
 import cardImg from './l2images/cardboximg.png'
 import Footer from '../footer/Footer'
+import MobileFooter from '../footer/MobileFooter'
 
 const Landpg2 = () => {
 
@@ -316,6 +317,7 @@ const Landpg2 = () => {
       </section>
 
       <Footer dBcakground={'section3-l2'}/>
+      <MobileFooter/>
     </div>
   )
 }

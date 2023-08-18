@@ -1,0 +1,36 @@
+.mbf-container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 24vh;
+}
+
+.powered-by{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-top: 40px;
+}
+
+.py-img{
+    height: 18px;
+    width: 18px;
+}
+
+.py-txt{
+    font-family: Robot;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+@media only screen and (max-width: 1057px) {
+    .mbf-container{
+        display: flex;
+    }
+}
+

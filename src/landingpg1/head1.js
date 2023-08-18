@@ -3,6 +3,7 @@ import './head1.css'
 import { Link } from 'react-router-dom'
 
 import logo from './l1images/Logo.png'
+import AccountComp from './accountComp';
 
 const Head1 = () => {
   return (
@@ -14,15 +15,11 @@ const Head1 = () => {
       </div>
       
 
-      <div className="top-btn-wrapper">
-            <Link to='/pg2' className="top-btn">
-                <p className="top-btn-txt">Have an account?</p>
-            </Link>
+      
 
-            <button className="top-btn1">
-                <p className="top-btn-txt">Sign in</p>
-            </button>
-        </div>
+      <AccountComp
+        visibility={'top-btn-wrapper'}
+      />
     </header>
   )
 }

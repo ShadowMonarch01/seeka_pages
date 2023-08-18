@@ -7,7 +7,7 @@ header{
     position: fixed;
     width: 100%;
     /* box-shadow: 0 8px 6px -6px #414a4c; */
-    z-index: 10px;
+    z-index: 10;
 }
 
 .bar-logo{
@@ -17,38 +17,3 @@ header{
 
 }
 
-.top-btn-wrapper{
-    margin-right: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.top-btn{
-    height: 40px;
-    margin-left: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 24px;
-    text-decoration: none;
-}
-
-.top-btn1{
-    height: 51px;
-    width: 98px;
-    border-radius: 24px;
-    border-width:2px ;
-    border-color: black;
-    color: black;
-    background-color: #D299FF;
-    font-weight: bold;
-
-}
-
-.top-btn-txt{
-    font-size: 18px;
-    text-decoration: none;
-    font-family: Robot;
-    color: black;
-}

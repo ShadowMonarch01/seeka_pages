@@ -638,3 +638,23 @@
     }
 }
 
+@media only screen and (max-width: 1057px) {
+    .thirdpic-section{
+        /* background-color: orange; */
+    }
+}
+
+@media only screen and (max-width: 1004px) {
+    .thirdpic-section{
+        height: 50vh;
+    }
+
+    .chilAdven{
+        font-size: 58px;
+    }
+
+    .chillAd2{
+        font-size: 18px;
+    }
+}
+

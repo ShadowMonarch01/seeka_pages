@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/seeka_pages/static/css/main.4e2f6690.css",
+    "main.css": "/seeka_pages/static/css/main.46f3354a.css",
     "main.js": "/seeka_pages/static/js/main.ddf41089.js",
     "static/js/787.250f9c5b.chunk.js": "/seeka_pages/static/js/787.250f9c5b.chunk.js",
     "static/media/background1.png": "/seeka_pages/static/media/background1.8d15bdcf2b42e3bc39b5.png",
@@ -15,12 +15,12 @@
     "static/media/fcombo2.png": "/seeka_pages/static/media/fcombo2.8eefff81d76f219a558f.png",
     "static/media/NavBar.png": "/seeka_pages/static/media/NavBar.f93152d83d46abfe7111.png",
     "index.html": "/seeka_pages/index.html",
-    "main.4e2f6690.css.map": "/seeka_pages/static/css/main.4e2f6690.css.map",
+    "main.46f3354a.css.map": "/seeka_pages/static/css/main.46f3354a.css.map",
     "main.ddf41089.js.map": "/seeka_pages/static/js/main.ddf41089.js.map",
     "787.250f9c5b.chunk.js.map": "/seeka_pages/static/js/787.250f9c5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2f6690.css",
+    "static/css/main.46f3354a.css",
     "static/js/main.ddf41089.js"
   ]
 }

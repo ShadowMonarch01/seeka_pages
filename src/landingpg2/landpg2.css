@@ -275,7 +275,6 @@
 
 .image-h3{
     position: absolute;
-    position: absolute;
     /* background-color: yellow; */
     width: 20vw;
     height: 10vh;
@@ -592,6 +591,18 @@
 }
 
 @media only screen and (max-width: 1250px) {
+    .topcontainer{
+        height: 60vh;
+    }
+
+    .topbigtxt-1{
+        font-size: 40px;
+    }
+
+    .topbigtxt-2{
+        font-size: 12px;
+    }
+
     .thirdpic-section{
         height: 60vh;
         /* background-color: green; */
@@ -656,5 +667,123 @@
     .chillAd2{
         font-size: 18px;
     }
+}
+
+@media only screen and (max-width: 880px) {
+    .thirdpic-section{
+        height: fit-content;
+    }
+    .flex-imgs-txts{
+        /* height: fit-content; */
+        /* height: 100vh; */
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        /* background-color: gray; */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* justify-content: space-between; */
+    }
+    .all-images-holder{
+        position:sticky;
+        height: 270px;
+        width: 243px;
+        /* background-color: #F7119B; */
+        z-index: 1;
+    }
+
+    .image-h1{
+        height: 270px;
+        width: 243px;
+
+        /* position: absolute; */
+        /* background-color: red; */
+        left: -16px;
+        top: 0px;
+        border-radius: 16px;
+    }
+
+    .image-h2{
+        height: 143px;
+        width: 143px;
+
+        
+        left: 50px;
+        margin-top: 0px;
+        margin-top: calc(270px /3);
+        /* margin-left: calc(18vw); */
+        margin-left: 38%;
+    }
+
+    .right-txt-container{
+        /* background-color: blue; */
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        /* z-index: -1; */
+    }
+
+    .chill-btn button{
+        font-size: 18px;    
+        width: 290px;
+    }
+    /* Start Fixing */
+
+    .image-h3{
+        position: absolute;
+        left: 98px;
+        margin-top: calc(270px / 2.6);
+
+        height: 18.71px;
+        width: 106px;
+        margin-left: 38%;
+        /* background: white; */
+    }
+
+    .image-h4{
+        left: 92px;
+        margin-top: calc(270px / 2.13);
+        font-size: 14px;
+        margin-left: 38%;
+    }
+
+    .image-h5{
+        position: absolute;
+        width: fit-content;
+        left: 92px;
+        bottom: -10px;
+        margin-left: 24%;
+    }
+
+    .chilAdven{
+        font-size: 30px;
+    }
+
+    .chillAd2{
+        font-size: 14px;
+    }
+
+    .fourth-section{
+        height: fit-content;
+    }
+
+    .ab-us{
+        font-size: 28px;
+    }
+
+    .ab-us-fulltxt{
+        font-size: 14px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .ly-images{
+        width: 60%;
+        height: 24em;    
+    }
+
+    .chill-btn-2 button{
+        font-size: 18px;
+    }
+
 }
 

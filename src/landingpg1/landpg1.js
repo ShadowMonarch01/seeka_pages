@@ -33,12 +33,6 @@ const Landpg1 = () => {
               Meet them today!
             </p>
 
-            {/* <p className='firsttxt'>
-              Seeka is the only dating app that matches you 
-              on what matters to you.<br/>
-              You deserve to find who you’re looking for.
-              Meet them today!
-            </p> */}
 
             <p className='seconttxt'>
               By clicking Join, you agree to our<br className='desktopView'/> 
@@ -46,13 +40,6 @@ const Landpg1 = () => {
               data in our <Link to='/'>Privacy Policy</Link>. and<br className='desktopView'/>
               <Link to='/'>Cookies Policy.</Link>
             </p>
-
-            {/* <p className='seconttxt'>
-              By clicking Join, you agree to our 
-              <Link to='/'>Terms</Link>. Learn how we<br/> processs your
-              data in our <Link to='/'>Privacy Policy</Link>. and
-              <Link to='/'>Cookies Policy.</Link>
-            </p> */}
 
             <button className='joinbtn'>
               <p>JOIN SEEKA</p>

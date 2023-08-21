@@ -476,7 +476,7 @@
 }
 
 .fifth-section{
-    height: 160vh;
+    height: 140vh;
     margin-bottom: 40px;
 }
 
@@ -490,10 +490,62 @@
     text-align: center;
 }
 
+/* For horizontal */
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.product-container{
+    /* background-color: gainsboro; */
+    position: relative;
+    padding: 0 10px;
+    display: flex;
+    height: fit-content;
+    overflow-x: hidden; /*<-- changed */
+    scroll-behavior: smooth;
+    justify-content: center;/*<-- changed */
+    direction: ltr;
+}
+
+.next-btn,
+.pre-btn{
+    border: none;
+    width: 42px;
+    height: 42px;
+    background-color: rgb(0, 0, 0, 0.436);
+    box-shadow: 0px 0px 10px 1 black;
+    border-radius: 10px;
+    position: absolute;
+    top: 44%;
+    /* display: flex; */
+    display: none; /*<-- changed */
+    justify-content: center;
+    align-items: center;
+}
+
+.next-btn{
+    right: 10px;
+}
+
+.pre-btn{
+    z-index: 2;
+}
+
+.next-btn p,
+.pre-btn p{
+    font-size: 50px;
+    
+    border-radius: 5px;
+    color: white;
+}
+
 .cards-wrapper{
-    width: 100%;
-    height: 48%;
+    width: fit-content;
+    /* height: 48%; */
     /* background-color: gray; */
+    margin: 5px 0px;
     padding: 40px 20px;
     display: flex;
     flex-direction: row;
@@ -502,12 +554,12 @@
 }
 
 .card-container{
-    width: 28%;
-    height: 100%;
+    min-width: 263px;
+    height: 322px;
     /* background-color: blue; */
     box-shadow: -2px 2px 100px 0px rgba(255, 161, 224, 0.05) inset;
 
-    margin: 0px 10px;
+    margin: 0px 30px;/*<-- changed 20px*/
     border-radius: 18px;
     position: relative;
     padding: 1rem;
@@ -524,7 +576,7 @@
     position: absolute;
     width: 86%;
     height: 86%;
-    top: 9%;
+    top: 10%;
     left: 8% ;
     /* background-color: green; */
     display: flex;
@@ -532,7 +584,7 @@
 }
 
 .plenty-card-txt{
-    font-size: 22px;
+    font-size: 16.8px;
     font-family: Inter;
     color: white;
     
@@ -566,7 +618,7 @@
 
 .card-box-txt p{
     font-family: Inter;
-    font-size: 18px;
+    font-size: 12px;
     color: white;
     font-weight: 600;
 }
@@ -640,19 +692,61 @@
         height: 38%;
     } */
 
-    .plenty-card-txt{
+    .card-container{
+        margin: 0px 20px;/*<-- changed 20px*/
+    }
+
+    /* .plenty-card-txt{
         font-size: 16px;
     }
 
     .card-box-txt p{
         font-size: 16px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1057px) {
+
     .thirdpic-section{
         /* background-color: orange; */
     }
+
+    .dnwbtn-2{
+        width: 168px;
+        height: 50px;
+    }
+
+    .dwnbtn-section{
+        padding: 0px 2px;
+    }
+
+    .btnsm-2{
+        font-size: 12px;
+    }
+    
+    .btnbd-2{
+        font-size: 14px;
+    }
+
+    .below-dwnbtns{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .btgTrip{
+        font-size: 28px;
+    }
+    
+    .smallWritupz{
+        font-size: 16px;
+    }
+
+    .pick-trip-txt-br{
+        display: none;
+    }
+
+    
 }
 
 @media only screen and (max-width: 1004px) {
@@ -669,20 +763,35 @@
     }
 }
 
+@media only screen and (max-width: 925px) {
+    .product-container{
+        overflow-x: scroll; /*<-- changed */
+        justify-content: unset;/*<-- changed */
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .product-container::-webkit-scrollbar{
+        display: none;
+      }
+
+    
+    .next-btn,
+    .pre-btn{
+        display: flex; /*<-- changed */
+    }
+}
+
 @media only screen and (max-width: 880px) {
     .thirdpic-section{
         height: fit-content;
     }
     .flex-imgs-txts{
-        /* height: fit-content; */
-        /* height: 100vh; */
-        /* display: flex; */
         flex-direction: column;
         align-items: center;
-        /* background-color: gray; */
-        /* width: 100%; */
-        /* height: 100%; */
-        /* justify-content: space-between; */
     }
     .all-images-holder{
         position:sticky;
@@ -785,5 +894,25 @@
         font-size: 18px;
     }
 
+    /* Fifth section */
+    .fifth-section{
+        padding-top: 30px;
+    }
+    .pp-tts{
+        font-size: 28px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 680px) {
+    .topcontainer{
+        background-image: none;
+    }
+    
+    .positiontopImages{
+        background-image: none;
+    }
 }
 

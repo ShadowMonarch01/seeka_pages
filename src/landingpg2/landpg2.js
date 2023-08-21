@@ -23,7 +23,21 @@ import MobileFooter from '../footer/MobileFooter'
 
 const Landpg2 = () => {
 
+  let box = document.querySelector('.product-container');
+
   const cardsData =[{dText:'Elementum mi felis, sit velit'},{dText:'Elementum mi felis, sit velit'},{dText:'Elementum mi felis, sit velit'}];
+
+  const btnpressprev =()=>{
+    let width = box.clientWidth;
+    box.scrollLeft -= width;
+    console.log(width)
+  }
+
+  const btnpressnext =()=>{
+    let width = box.clientWidth;
+    box.scrollLeft = box.scrollLeft + width;
+    console.log(width)
+  }
 
   return (
     <div className='mainContainer2'>
@@ -144,7 +158,7 @@ const Landpg2 = () => {
 
             <div>
               <p className='smallWritupz'>
-                Our team put together some trips to you to discover,<br/>
+                Our team put together some trips to you to discover,<br className='pick-trip-txt-br'/>
                 feel free to discover each of them.
               </p>
             </div>
@@ -245,75 +259,85 @@ const Landpg2 = () => {
       </section>
 
       <section className='fifth-section'>
-        <p className='pp-tts'>People's Thoughts</p>
+        <p className='pp-tts'>Community</p>
 
-        <div className='cards-wrapper'>
-          {
-            cardsData.map((item, index)=>(
-              <div key={index} className='card-container'>
-                  {/* <div className='quoies-img'></div> */}
-                  <img className="quoies-img" src={quoteImg} alt=""/>
-                  <div className='details-container'>
-                    <p className='plenty-card-txt'>
-                      {item.dText}<br/>
-                      lobortis ultricies non. Mattis enim,<br/>
-                      nisl<br/>
-                      <br/>
-                      adipiscing natoque diam et. Cum<br/>
-                      posuere in velit massa sagittis a...<br/>
-                    </p>
+        {/* Trial */}
+        <div className='product-carousel'>
+          {/* <button className='pre-btn' onClick={btnpressprev}><p>&lt;</p></button>
+          <button className='next-btn' onClick={btnpressnext}><p>&gt;</p></button> */}
 
-                    <div className='card-box'>
-                      {/* <div className='card-box-img'></div> */}
-                      <img className="card-box-img" src={cardImg} alt=""/>
+          <div className='product-container'>
+            {
+              cardsData.map((item, index)=>(
+                <div key={index} className='card-container'>
+                    <img className="quoies-img" src={quoteImg} alt=""/>
+                    <div className='details-container'>
+                      <p className='plenty-card-txt'>
+                        {item.dText}<br/>
+                        lobortis ultricies non. Mattis enim,<br/>
+                        nisl<br/>
+                        <br/>
+                        adipiscing natoque diam et. Cum<br/>
+                        posuere in velit massa sagittis a...<br/>
+                      </p>
 
-                      <div className='card-box-txt'>
-                        <p>
-                          JUDY ROSELESS<br/>
-                          51YR OLD FROM AUSTIN
-                        </p>
+                      <div className='card-box'>
+                        <img className="card-box-img" src={cardImg} alt=""/>
+
+                        <div className='card-box-txt'>
+                          <p>
+                            JUDY ROSELESS<br/>
+                            51YR OLD FROM AUSTIN
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-            ))
-          }
-          
+              ))
+            }
+            
+          </div>
+
         </div>
 
-        <div className='cards-wrapper'>
-          {
-            cardsData.map((item, index)=>(
-              <div key={index} className='card-container'>
-                  {/* <div className='quoies-img'></div> */}
-                  <img className="quoies-img" src={quoteImg} alt=""/>
-                  <div className='details-container'>
-                    <p className='plenty-card-txt'>
-                      {item.dText}<br/>
-                      lobortis ultricies non. Mattis enim,<br/>
-                      nisl<br/>
-                      <br/>
-                      adipiscing natoque diam et. Cum<br/>
-                      posuere in velit massa sagittis a...<br/>
-                    </p>
+        <div className='product-carousel'>
+          {/* <button className='pre-btn' onClick={btnpressprev}><p>&lt;</p></button>
+          <button className='next-btn' onClick={btnpressnext}><p>&gt;</p></button> */}
 
-                    <div className='card-box'>
-                      {/* <div className='card-box-img'></div> */}
-                      <img className="card-box-img" src={cardImg} alt=""/>
+          <div className='product-container'>
+            {
+              cardsData.map((item, index)=>(
+                <div key={index} className='card-container'>
+                    <img className="quoies-img" src={quoteImg} alt=""/>
+                    <div className='details-container'>
+                      <p className='plenty-card-txt'>
+                        {item.dText}<br/>
+                        lobortis ultricies non. Mattis enim,<br/>
+                        nisl<br/>
+                        <br/>
+                        adipiscing natoque diam et. Cum<br/>
+                        posuere in velit massa sagittis a...<br/>
+                      </p>
 
-                      <div className='card-box-txt'>
-                        <p>
-                          JUDY ROSELESS<br/>
-                          51YR OLD FROM AUSTIN
-                        </p>
+                      <div className='card-box'>
+                        <img className="card-box-img" src={cardImg} alt=""/>
+
+                        <div className='card-box-txt'>
+                          <p>
+                            JUDY ROSELESS<br/>
+                            51YR OLD FROM AUSTIN
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-            ))
-          }
-          
+              ))
+            }
+            
+          </div>
+
         </div>
+        
       </section>
 
       <Footer dBcakground={'section3-l2'}/>
